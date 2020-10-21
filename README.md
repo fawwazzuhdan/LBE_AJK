@@ -13,19 +13,6 @@ Setelah mengetahui apa itu GIT, selanjutnya anda juga harus mengetahui apa saja 
 6. **GIT memiliki staging area atau index**. Dengan stagin area, developer bisa memformat commit dan membuatnya bisa di-review sebelum benar-benar diterapkan.
 7. **GIT sangat sederhana dalam penggunannya**. Untuk memulai, Anda bisa membuat repository atau men-checkout yang sudah ada. Setelah instalasi, perintah git-init akan men-setup semuanya.
 
-## Perintah-perintah dasar Git
-Untuk mengetahui bagaimana menggunakan git, berikut perintah-perintah dasar git:
-
-- **git init** : untuk membuat repository pada file lokal yang nantinya ada folder .git
-- **git status** : untuk mengetahui status dari repository lokal
-- **git add** : menambahkan file baru pada repository yang dipilih
-- **git commit** : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
-- **git push** : untuk mengirimkan perubahan file setelah di commit ke remote repository.
-- **git branch** : melihat seluruh branch yang ada pada repository
-- **git checkout** : menukar branch yang aktif dengan branchyang dipilih
-- **git merge** : untuk menggabungkan branch yang aktif dan branch yang dipilih
-- **git clone** : membuat Salinan repository lokal
-
 Contoh dari *software version control system* adalah github, gitlab, bitbucket, dan masih banyak lagi. Jika anda sebagai developer belum mengetahui fitur git ini, maka anda wajib mencoba dan memakainya. Karena banyak manfaat yang akan didapat dengan git ini.
 
 ## Keunggulan dari Git
@@ -51,6 +38,19 @@ Berikut ini merupakan manfaat lain dari GIT yang bisa Anda rasakan ketika sudah 
 - Bisa berkontribusi dalam berbagai proyek yang sifatnya open-source.
 - Bisa memahami cara mendeploy sebuah aplikasi modern
 - Bisa memahami cara untuk berkolaborasi sebuah atau beberapa proyek.
+
+## Perintah-perintah dasar Git
+Untuk mengetahui bagaimana menggunakan git, berikut perintah-perintah dasar git:
+
+- **git init** : untuk membuat repository pada file lokal yang nantinya ada folder .git
+- **git status** : untuk mengetahui status dari repository lokal
+- **git add** : menambahkan file baru pada repository yang dipilih
+- **git commit** : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
+- **git push** : untuk mengirimkan perubahan file setelah di commit ke remote repository.
+- **git branch** : melihat seluruh branch yang ada pada repository
+- **git checkout** : menukar branch yang aktif dengan branchyang dipilih
+- **git merge** : untuk menggabungkan branch yang aktif dan branch yang dipilih
+- **git clone** : membuat Salinan repository lokal
 
 ## Cara install Git
 Cara untuk install git di Windows silahkan download file [disini](https://git-scm.com/download/win "Install Git di Windows") kemudian install. Sedangkan untuk Linux bisa dilihat [disini](https://git-scm.com/download/linux "Install Git di Linux").
